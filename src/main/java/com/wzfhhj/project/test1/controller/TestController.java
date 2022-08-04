@@ -17,8 +17,10 @@ public class TestController {
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 100; i++)
         {
+            System.out.println("111111111");
             list.add(i);
         }
+
     }
 
     @GetMapping("test/one")
@@ -30,11 +32,13 @@ public class TestController {
 
     public static void main(String[] args)
     {
+        System.out.println("232323");
 
     }
 
     private void testMethod()
     {
+        System.out.println("4444");
         System.out.println("1111111111111111");
     }
 
